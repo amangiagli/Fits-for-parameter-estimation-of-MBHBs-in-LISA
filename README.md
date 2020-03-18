@@ -3,7 +3,8 @@
 This repository is intended to contain the data presented in the work arXiv: (insert link) with an additional tutorial to show how these data can be used. <br />
 The repository contains several folders:
 
-#1. The folder `data` contain the median, 68\% and 95\% uncertainties for:
+#The folder `data` contain the median, 68\% and 95\% uncertainties for:
+
     - Sky position <img src="https://render.githubusercontent.com/render/math?math=\Delta \Omega \, [deg^2]"> ('skyloc.txt')
     - Luminosity distance <img src="https://render.githubusercontent.com/render/math?math=\Delta{d_L/d_L}" >  ('dl.txt')
     - Chirp mass <img src="https://render.githubusercontent.com/render/math?math=\Delta\mathcal{M}/\mathcal{M}"> ('mchirp.txt')
