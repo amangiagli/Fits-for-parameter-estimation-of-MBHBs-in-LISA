@@ -9,6 +9,7 @@ The repository contains several folders:
     - Chirp mass ('mchirp.txt')
     - Mass-ratio ('mass_ratio.txt')
     - SNR ('SNR.txt')
+    
 assuming the standard LISA sensitivity curve, as described in Sec.II of (link to arxiv). Refer to the file with ' *_degraded.txt ' for the same quantites computed with the degraded LISA sensitivity.
 
 
