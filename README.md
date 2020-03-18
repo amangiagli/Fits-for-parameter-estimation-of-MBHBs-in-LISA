@@ -4,7 +4,7 @@ This repository is intended to contain the data presented in the work arXiv: (in
 The repository contains several folders:
 
 1. The folder `data` contain the median, $68\%$ and $95\%$ uncertainties for:
-    - Sky position $\Delta Omega$ ('skyloc.txt')
+    - Sky position $$\Delta Omega$$ ('skyloc.txt')
     - Luminosity distance $d_L$ ('dl.txt')
     - Chirp mass $\mathcal{M}$ ('mchirp.txt')
     - Mass-ratio $q$ ('mass_ratio.txt')
