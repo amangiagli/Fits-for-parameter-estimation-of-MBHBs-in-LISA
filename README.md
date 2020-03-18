@@ -24,7 +24,7 @@ contains modules where we already implemented the fits. The names should be self
 We notice that `the area uncertainties provided by the corresponding formula are in steradians`.
 
 ## 3. The `distribution.tar` and `distribution_degr.tar` archive
-contain the <img src="https://#render.githubusercontent.com/render/math?math=\Delta\Omega\,[deg^2]">, <img src="https://render.githubusercontent.com/render/math?math=\Delta{d_L/d_L}" >, <img src="https://render.githubusercontent.com/render/math?math=\Delta\mathcal{M}/\mathcal{M}">, <img src="https://render.githubusercontent.com/render/math?math=\Delta{q/q}"> and S/N distribution for the whole set of parameters explored at different time from coalescence.  <br />
+contain the <img src="https://render.githubusercontent.com/render/math?math=\Delta \Omega \, [deg^2]">, <img src="https://render.githubusercontent.com/render/math?math=\Delta{d_L/d_L}" >, <img src="https://render.githubusercontent.com/render/math?math=\Delta\mathcal{M}/\mathcal{M}">, <img src="https://render.githubusercontent.com/render/math?math=\Delta{q/q}"> and S/N distribution for the whole set of parameters explored at different time from coalescence.  <br />
 In each file, we report the fraction of binaries that fall inside each bins for 68% and 95% of the distributions. The files 'area_M#_z#.txt', 'dl_M#_z#.txt' and 'SNR_M#_z#.txt' are organized in 17 columns:  <br />
 bin value - 68% (1 month) - ... 68% (1 hour) - 68% (merger) - 95% (1 month) - ... 95% (1 hour) - 95% (merger)
 
