@@ -1,6 +1,6 @@
-# Analytic-parameter-estimation-for-MBHBs-in-LISA
+# Analytic parameter estimation for MBHBs in LISA
 
-mettere le unità di misura come prima riga nei file
-
+This repository is intended to contain the data presented in the work arXiv: (insert link) with an additional tutorial to show these data can be used. <br />
+The repository contains several folders:
 
 
