@@ -1,15 +1,15 @@
-## Analytic parameter estimation for MBHBs in LISA
+# Analytic parameter estimation for MBHBs in LISA
 
 This repository is intended to contain the data presented in the work arXiv: (insert link) with an additional tutorial to show how these data can be used. <br />
 The repository contains several folders:
 
-# 1. The folder `data` 
+## 1. The folder `data` 
 contain the median, 68\% and 95\% uncertainties for:
-    - Sky position <img src="https://render.githubusercontent.com/render/math?math=\Delta \Omega \, [deg^2]"> ('skyloc.txt')
-    - Luminosity distance <img src="https://render.githubusercontent.com/render/math?math=\Delta{d_L/d_L}" >  ('dl.txt')
-    - Chirp mass <img src="https://render.githubusercontent.com/render/math?math=\Delta\mathcal{M}/\mathcal{M}"> ('mchirp.txt')
-    - Mass-ratio <img src="https://render.githubusercontent.com/render/math?math=\Delta{q/q}"> ('mass_ratio.txt')
-    - S/N ('SNR.txt')
+- Sky position <img src="https://render.githubusercontent.com/render/math?math=\Delta \Omega \, [deg^2]"> ('skyloc.txt')
+- Luminosity distance <img src="https://render.githubusercontent.com/render/math?math=\Delta{d_L/d_L}" >  ('dl.txt')
+- Chirp mass <img src="https://render.githubusercontent.com/render/math?math=\Delta\mathcal{M}/\mathcal{M}"> ('mchirp.txt')
+- Mass-ratio <img src="https://render.githubusercontent.com/render/math?math=\Delta{q/q}"> ('mass_ratio.txt')
+- S/N ('SNR.txt')
     
 assuming the standard LISA sensitivity curve, as described in Sec.II of (link to arxiv). Refer to the file with ' *_degraded.txt ' for the same quantites computed with the degraded LISA sensitivity. <br />
 We report the values at 7 times from coalescence: 1 month, 1 week, 3 days, 1 day, 10 hours, 5 hours and 1 hour.
