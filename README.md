@@ -32,4 +32,4 @@ The files 'mchirp_M#_z#.txt' and 'mass_ratio_M#_z#.txt' are organized in the sam
 
 ## 3. the folder `table_coefficient`
 contains the coefficients necessary for the fitting formula. The file for the fiducial LISA sensitivity curve (i.e. without 'degraded' in the namefile) report the same values of Tab.II-V.
-The file for the degraded LISa sensitivity curve follow the same convention.
+The file for the degraded LISA sensitivity curve follow the same convention.
