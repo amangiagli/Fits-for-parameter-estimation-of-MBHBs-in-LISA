@@ -20,7 +20,7 @@ log10(mtot/msun) - redshift - median (1 month) - median (1 week) -  ... median (
 The files 'mchirp.txt' and 'mass_ratio.txt' are organized in the same way withour the 'merger' columns, i.e. they have 37 columns
 
 ## 2. The folder `fits`
-contains modules where we already implemented the fits. The names should be self-explanatory. You can find an application of these formula in the notebook `Fits.tutorial.ipynb`. 
+contains modules where we already implemented the fits. You can find an application of these formula in the notebook `Fits_tutorial.ipynb`. 
 We notice that `the area uncertainties provided by the corresponding formula are in steradians`.
 
 ## 3. The `distribution.tar` and `distribution_degr.tar` archive
