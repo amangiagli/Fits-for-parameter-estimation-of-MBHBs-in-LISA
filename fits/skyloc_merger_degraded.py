@@ -3,11 +3,11 @@ import fits.fit_formula as fit_formula
 def a_coeff_skyloc_merger_below3e6_degr_median(x_in):
     value = 0.
     # coefficients
-    coeff = [7.1578823069230005E-06,
-            -8.6467202099482117E-03,
-            1.0889851107678952E-04,
-            -5.2486812277782605E-05,
-            7.3941751272244785E-06
+    coeff = [7.6056096475886960E-06,
+            -8.6367146844934378E-03,
+            1.1424546667596481E-04,
+            -5.4315047540263851E-05,
+            7.4076508118002494E-06
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in)
@@ -16,11 +16,11 @@ def a_coeff_skyloc_merger_below3e6_degr_median(x_in):
 def a_coeff_skyloc_merger_above3e6_degr_median(x_in):
     value = 0.
     # coefficients
-    coeff = [1.7952230425132029E-07,
-            -1.3226826518119906E-03,
-            2.8349906514609630E-06,
-            -1.3283583560120236E-06,
-            1.8093040400009963E-07
+    coeff = [1.9345649019145569E-07,
+            -1.3227527430514391E-03,
+            3.0423394417990450E-06,
+            -1.3958883475969260E-06,
+            1.8862040433959365E-07
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in)
@@ -29,11 +29,11 @@ def a_coeff_skyloc_merger_above3e6_degr_median(x_in):
 def a_coeff_for_skyloc_below3e6_degr_68lower(x_in, y_in):
     value = 0.
 
-    coeff = [4.0172709991207479E-06,
-            -6.1718804978305002E-03,
-            6.1867537466533040E-05,
-            -2.8982626511057170E-05,
-            3.9679798678014946E-06
+    coeff = [3.7939266704898313E-06,
+            -6.1670674471493610E-03,
+            6.0194198382476909E-05,
+            -2.9131182102626919E-05,
+            4.0646187321372521E-06
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -42,11 +42,11 @@ def a_coeff_for_skyloc_below3e6_degr_68lower(x_in, y_in):
 def a_coeff_for_skyloc_above3e6_degr_68lower(x_in, y_in):
     value = 0.
 
-    coeff = [1.9083377724091455E-07,
-            -1.3842687614480835E-03,
-            2.9425009465900432E-06,
-            -1.3818534572957364E-06,
-            1.8960515675980485E-07
+    coeff = [2.1499488514690514E-07,
+            -1.3844277619337220E-03,
+            3.3005686349098834E-06,
+            -1.5338871250012100E-06,
+            2.1079237530355295E-07
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -56,11 +56,11 @@ def a_coeff_for_skyloc_above3e6_degr_68lower(x_in, y_in):
 def a_coeff_for_skyloc_below3e6_degr_68upper(x_in, y_in):
     value = 0.
 
-    coeff = [1.1856011095513932E-03,
-            9.5322334641475923E-02,
-            1.8323876909975487E-02,
-            -8.8285240529953728E-03,
-            1.2288883482886796E-03
+    coeff = [1.3039771972514144E-03,
+            9.7881126550369915E-02,
+            1.8730455362635824E-02,
+            -9.0839482484470942E-03,
+            1.2716110601770126E-03
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -69,11 +69,11 @@ def a_coeff_for_skyloc_below3e6_degr_68upper(x_in, y_in):
 def a_coeff_for_skyloc_above3e6_degr_68upper(x_in, y_in):
     value = 0.
 
-    coeff = [7.8837991858108180E-07,
-            -2.6902114792208250E-03,
-            1.1865082270050338E-05,
-            -5.5279773464244965E-06,
-            7.4938732115307276E-07
+    coeff = [8.5865540158545512E-07,
+            -2.6880939387556807E-03,
+            1.2342398695102516E-05,
+            -5.7304694893581139E-06,
+            7.8598226879395746E-07
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -83,11 +83,11 @@ def a_coeff_for_skyloc_above3e6_degr_68upper(x_in, y_in):
 def a_coeff_for_skyloc_below3e6_degr_95lower(x_in, y_in):
     value = 0.
 
-    coeff = [3.0982736268392037E-06,
-            -5.6313703980323442E-03,
-            4.5345692166958698E-05,
-            -2.1397963352602028E-05,
-            2.9400070010276473E-06
+    coeff = [3.3913586757000917E-06,
+            -5.6339538712064721E-03,
+            5.3970517975408306E-05,
+            -2.6484567395778357E-05,
+            3.7320479151392457E-06
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -96,11 +96,11 @@ def a_coeff_for_skyloc_below3e6_degr_95lower(x_in, y_in):
 def a_coeff_for_skyloc_above3e6_degr_95lower(x_in, y_in):
     value = 0.
 
-    coeff = [2.6576017477481015E-06,
-            -4.7654650484827490E-03,
-            3.9309052864039642E-05,
-            -1.8192811332316016E-05,
-            2.4698553815929045E-06
+    coeff = [2.3884476558898162E-06,
+            -4.7629557501448535E-03,
+            3.5774444946863561E-05,
+            -1.6447341066474102E-05,
+            2.1912714718263290E-06
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -109,11 +109,11 @@ def a_coeff_for_skyloc_above3e6_degr_95lower(x_in, y_in):
 def a_coeff_for_skyloc_below3e6_degr_95upper(x_in, y_in):
     value = 0.
 
-    coeff = [2.1134061070540773E-05,
-            1.4029587325612627E-02,
-            3.3209477772239414E-04,
-            -1.6091371092458802E-04,
-            2.2652148482853297E-05
+    coeff = [2.0612836039083996E-05,
+            1.4078904613131438E-02,
+            3.0195143085003106E-04,
+            -1.3278174360263346E-04,
+            1.7254150864555516E-05
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -122,11 +122,11 @@ def a_coeff_for_skyloc_below3e6_degr_95upper(x_in, y_in):
 def a_coeff_for_skyloc_above3e6_degr_95upper(x_in, y_in):
     value = 0.
 
-    coeff = [2.9474082128350613E-07,
-            -1.5462718722277454E-03,
-            4.7104645882360045E-06,
-            -2.2569836992558167E-06,
-            3.1232309094971835E-07
+    coeff = [1.4997584959197871E-06,
+            -3.7025570606378029E-03,
+            2.4659069978713066E-05,
+            -1.1010680408451089E-05,
+            1.4857892587798124E-06
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)

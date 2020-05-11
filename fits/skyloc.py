@@ -3,10 +3,10 @@ import fits.fit_formula as fit_formula
 def h_coeff_for_skyloc_median(x_in, y_in):
     value = 0.
     # coefficients
-    coeff = [-1.2998630439787837E+02,
-            -1.0527772933041575E-04,
-            -1.1953239110997283E-03,
-            3.0574391556222605E-04
+    coeff = [-1.2998569358666512E+02,
+            -2.5407666734371414E-04,
+            -2.2575081789341788E-03,
+            4.8233028991520360E-04
             ]
 
     value = fit_formula.formula_for_single_coeff(coeff, x_in, y_in)
@@ -15,10 +15,10 @@ def h_coeff_for_skyloc_median(x_in, y_in):
 def h_coeff_for_skyloc_68lower(x_in, y_in):
     value = 0.
 
-    coeff = [-1.6455309326844471E+02,
-            -2.0399696908286670E-04,
-            -2.0582143814982861E-03,
-            4.4052227116906620E-04
+    coeff = [-1.6455304689229274E+02,
+            -2.1558079036731862E-04,
+            -2.1047119580990988E-03,
+            4.4831576725083271E-04
             ]
 
     value = fit_formula.formula_for_single_coeff(coeff, x_in, y_in)
@@ -27,10 +27,10 @@ def h_coeff_for_skyloc_68lower(x_in, y_in):
 def h_coeff_for_skyloc_68upper(x_in, y_in):
     value = 0.
 
-    coeff = [-7.7375450489897219E+01,
-            1.9416810038165442E-05,
-            1.1261438947261268E-04,
-            1.3657082870307361E-04
+    coeff = [-7.7372880766603473E+01,
+            -5.0404870799591818E-04,
+            -1.6330226187266648E-03,
+            4.2637194717641530E-04
             ]
 
     value = fit_formula.formula_for_single_coeff(coeff, x_in, y_in)
@@ -39,10 +39,10 @@ def h_coeff_for_skyloc_68upper(x_in, y_in):
 def h_coeff_for_skyloc_95lower(x_in, y_in):
     value = 0.
 
-    coeff = [-1.8387834785473638E+02,
-            -2.2590937733666590E-04,
-            -2.1254240015522990E-03,
-            4.5664704400746078E-04
+    coeff = [-1.8387702050020783E+02,
+            -4.3383947238852775E-04,
+            -3.0634804127408124E-03,
+            5.9519360784229651E-04
             ]
 
     value = fit_formula.formula_for_single_coeff(coeff, x_in, y_in)
@@ -51,10 +51,10 @@ def h_coeff_for_skyloc_95lower(x_in, y_in):
 def h_coeff_for_skyloc_95upper(x_in, y_in):
     value = 0.
 
-    coeff = [-2.5309635908138887E+01,
-            2.6602615904611438E-05,
-            -5.9813581420446315E-04,
-            2.4764577044350967E-04
+    coeff = [-2.5305792594533123E+01,
+            -6.6028067061252218E-04,
+            -2.0242686392157152E-03,  
+            4.6797257314495704E-04
             ]
 
     value = fit_formula.formula_for_single_coeff(coeff, x_in, y_in)

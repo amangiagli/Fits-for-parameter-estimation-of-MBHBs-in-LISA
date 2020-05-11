@@ -3,10 +3,10 @@ import fits.fit_formula as fit_formula
 def h_coeff_for_dl_median(x_in, y_in):
     value = 0.
     # coefficients
-    coeff = [-4.8845660693378754E+01,
-            -9.5803142292671045E-06,
-            -4.8242012209719434E-04,
-            1.3299993563341760E-04
+    coeff = [-4.8845056441915276E+01,
+            -1.0938551223067465E-04,
+            -8.1071305662013384E-04,
+            1.8399310536946912E-04
             ]
 
     value = fit_formula.formula_for_single_coeff(coeff, x_in, y_in)
@@ -15,10 +15,10 @@ def h_coeff_for_dl_median(x_in, y_in):
 def h_coeff_for_dl_68lower(x_in, y_in):
     value = 0.
 
-    coeff = [-6.9433936685716787E+01,
-            -3.9284037206161998E-05,
-            -3.4533815330192188E-04,
-            1.1190042394502531E-04
+    coeff = [-6.9433922137158262E+01,
+            -4.9368806581662536E-05,
+            -5.1271876008367678E-04,
+            1.3350613088496401E-04
             ]
 
     value = fit_formula.formula_for_single_coeff(coeff, x_in, y_in)
@@ -27,10 +27,10 @@ def h_coeff_for_dl_68lower(x_in, y_in):
 def h_coeff_for_dl_68upper(x_in, y_in):
     value = 0.
 
-    coeff = [-3.7056020680150851E+01,
-            -7.4886068509257933E-06,
-            -2.7793213185625887E-04,
-            1.0832484743334831E-04
+    coeff = [-3.7055075662374890E+01,
+            -1.8049195265178815E-04,
+            -6.0040308207535357E-04,
+            1.6121933615096285E-04
             ]
 
     value = fit_formula.formula_for_single_coeff(coeff, x_in, y_in)
@@ -39,10 +39,10 @@ def h_coeff_for_dl_68upper(x_in, y_in):
 def h_coeff_for_dl_95lower(x_in, y_in):
     value = 0.
 
-    coeff = [-9.0143930342169270E+01,
-            -3.9163184132625506E-05,
-            -2.0824895538459282E-04,
-            8.9072747536600048E-05
+    coeff = [-9.0143953446931647E+01,
+            -5.0351642922722730E-05,
+            -4.8349766812840519E-04,
+            1.3033861633190118E-04
             ]
 
     value = fit_formula.formula_for_single_coeff(coeff, x_in, y_in)
@@ -51,10 +51,10 @@ def h_coeff_for_dl_95lower(x_in, y_in):
 def c_coeff_for_dl_95upper(x_in, y_in):
     value = 0.
 
-    coeff = [-2.5174398693129014E+01,
-            -1.7802607242258957E-04,
-            -1.5570384248821507E-03,
-            6.0701984376807688E-04
+    coeff = [-2.5169988890711966E+01,
+            -9.3891303428774277E-04,
+            -4.1277788652912218E-03,  
+            9.9912507438210682E-04
             ]
 
     value = fit_formula.formula_for_single_coeff(coeff, x_in, y_in)

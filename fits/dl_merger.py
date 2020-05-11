@@ -3,11 +3,11 @@ import fits.fit_formula as fit_formula
 def a_coeff_dl_merger_below3e6_median(x_in):
     value = 0.
     # coefficients
-    coeff = [1.9581265544714911E-05,
-            -2.0110584514536130E-02,
-            2.8279461534581239E-04,
-            -1.3599915516964789E-04,
-            1.9030595522340092E-05
+    coeff = [1.9147454482918484E-05,
+            -2.0082922342517996E-02,
+            2.8455779390319205E-04,
+            -1.3818538872270879E-04,
+            1.9466950970646528E-05
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in)
@@ -16,11 +16,11 @@ def a_coeff_dl_merger_below3e6_median(x_in):
 def a_coeff_dl_merger_above3e6_median(x_in):
     value = 0.
     # coefficients
-    coeff = [1.2038396087691276E-06,
-            -4.9449950936695693E-03,
-            1.8619895111897702E-05,
-            -8.7130120817819007E-06,
-            1.1815963708583502E-06
+    coeff = [1.3969415365922027E-06,
+            -4.9447211248042165E-03,
+            2.0873094040065287E-05,
+            -9.8464892636526637E-06,
+            1.3461724163140343E-06
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in)
@@ -29,11 +29,11 @@ def a_coeff_dl_merger_above3e6_median(x_in):
 def a_coeff_for_dl_below3e6_68lower(x_in, y_in):
     value = 0.
 
-    coeff = [1.2572903425167386E-05,
-            -1.6239261913710203E-02,
-            1.9807488371879436E-04,
-            -9.4810605044260633E-05,
-            1.3080634860449378E-05
+    coeff = [1.3148283865171910E-05,
+            -1.6227060938199728E-02,
+            2.0203253979051669E-04,
+            -9.8520752516164398E-05,
+            1.3884473165756440E-05
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -42,11 +42,11 @@ def a_coeff_for_dl_below3e6_68lower(x_in, y_in):
 def a_coeff_for_dl_above3e6_68lower(x_in, y_in):
     value = 0.
 
-    coeff = [1.3356240046733745E-06,
-            -5.0954087822570170E-03,
-            2.1969343620152812E-05,
-            -1.0492800522535053E-05,
-            1.4485779005890338E-06
+    coeff = [1.3852762292521566E-06,
+            -5.0945807664646153E-03,
+            2.1944387986613031E-05,
+            -1.0411244776682639E-05,
+            1.4407856124930354E-06
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -56,11 +56,11 @@ def a_coeff_for_dl_above3e6_68lower(x_in, y_in):
 def a_coeff_for_dl_below3e6_68upper(x_in, y_in):
     value = 0.
 
-    coeff = [2.7113695868779926E-05,
-            -2.2383085188973889E-02,
-            3.9968595771495714E-04,
-            -1.8728987892176028E-04,
-            2.5631851224350754E-05
+    coeff = [2.6960341930421476E-05,
+            -2.2341029660214957E-02,
+            3.8892175294325768E-04,
+            -1.8271576936420861E-04,
+            2.5192329187856057E-05
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -69,11 +69,11 @@ def a_coeff_for_dl_below3e6_68upper(x_in, y_in):
 def a_coeff_for_dl_above3e6_68upper(x_in, y_in):
     value = 0.
 
-    coeff = [1.4635759919549340E-06,
-            -5.0384477825184404E-03,
-            2.2827907987243488E-05,
-            -1.0808022566871513E-05,
-            1.4798313623122579E-06
+    coeff = [1.3990768653911720E-06,
+            -5.0351127989659815E-03,
+            2.1245473721604422E-05,
+            -1.0272056309160323E-05,
+            1.4240036465783068E-06
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -83,11 +83,11 @@ def a_coeff_for_dl_above3e6_68upper(x_in, y_in):
 def a_coeff_for_dl_below3e6_95lower(x_in, y_in):
     value = 0.
 
-    coeff = [1.3056113690177544E-05,
-            -1.5910706421302483E-02,
-            2.0487836309913613E-04,
-            -9.7553566594138990E-05,
-            1.3505998479235331E-05
+    coeff = [1.3126571116312916E-05,
+            -1.5893545792551353E-02,
+            1.9817772972651561E-04,
+            -9.3729930085532622E-05,
+            1.2859590635301845E-05
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -96,11 +96,11 @@ def a_coeff_for_dl_below3e6_95lower(x_in, y_in):
 def a_coeff_for_dl_above3e6_95lower(x_in, y_in):
     value = 0.
 
-    coeff = [4.8976192739275615E-06,
-            -9.2543564179901443E-03,
-            7.7716968122175132E-05,
-            -3.6444159457347715E-05,
-            4.9934736694135425E-06
+    coeff = [4.6128460455476095E-06,
+            -9.2447152324990588E-03,
+            6.8999016656315847E-05,
+            -3.2555204548518398E-05,
+            4.4694655714690859E-06
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -109,11 +109,11 @@ def a_coeff_for_dl_above3e6_95lower(x_in, y_in):
 def a_coeff_for_dl_below3e6_95upper(x_in, y_in):
     value = 0.
 
-    coeff = [1.3689033581651044E-05,
-            -1.5424761427772413E-02,
-            2.1454588055064120E-04,
-            -1.0258462099971413E-04,
-            1.4267731381563152E-05
+    coeff = [1.2981486649549587E-05,
+            -1.5404131481153072E-02,
+            2.0572291267783173E-04,
+            -9.8089981494373882E-05,
+            1.3702530318009015E-05
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
@@ -122,11 +122,11 @@ def a_coeff_for_dl_below3e6_95upper(x_in, y_in):
 def a_coeff_for_dl_above3e6_95upper(x_in, y_in):
     value = 0.
 
-    coeff = [6.6966303841735863E-07,
-            -3.5036930962991236E-03,
-            1.0800141220712155E-05,
-            -5.0629371935289001E-06,
-            6.8715251733703672E-07
+    coeff = [7.1983950063687095E-07,
+            -3.5031054974054981E-03,
+            1.0988244507292560E-05,
+            -5.1206881943507378E-06,
+            6.9176952849074536E-07
             ]
 
     value = fit_formula.formula_for_single_coeff_merger(coeff, x_in, y_in)
