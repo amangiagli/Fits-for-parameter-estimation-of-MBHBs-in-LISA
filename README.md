@@ -5,7 +5,7 @@ The repository contains several folders and .tar:
 
 ## 1. The folder `data` 
 contains the median, 68\% and 95\% uncertainties for:
-- Sky position <img src="https://render.githubusercontent.com/render/math?math=\Delta \Omega \, [deg^2]"> ('skyloc.txt')
+- Sky position <img src="https://render.githubusercontent.com/render/math?math=\Delta \Omega \, [deg^2]"> ('sky_loc.txt')
 - Luminosity distance <img src="https://render.githubusercontent.com/render/math?math=\Delta{d_L/d_L}" >  ('dl.txt')
 - Chirp mass <img src="https://render.githubusercontent.com/render/math?math=\Delta\mathcal{M}/\mathcal{M}"> ('mchirp.txt')
 - Mass-ratio <img src="https://render.githubusercontent.com/render/math?math=\Delta{q/q}"> ('mass_ratio.txt')
