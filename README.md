@@ -30,6 +30,6 @@ bin value - 68% (1 month) - ... 68% (1 hour) - 68% (merger) - 95% (1 month) - ..
 
 The files 'mchirp_M#_z#.txt' and 'mass_ratio_M#_z#.txt' are organized in the same way withour the 'merger' columns, i.e. they have 15 columns.  <br />
 
-## 3. the folder `table_coefficient`
+## 3. The folder `table_coefficient`
 contains the coefficients necessary for the fitting formula. The file for the fiducial LISA sensitivity curve (i.e. without 'degraded' in the namefile) report the same values of Tab.II-V.
 The file for the degraded LISA sensitivity curve follow the same convention.
