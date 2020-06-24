@@ -1,6 +1,6 @@
 # Fits for parameter estimation of MBHBs in LISA
 
-This repository is intended to contain the data presented in the work arXiv: (insert link) with an additional tutorial to show how these data can be used. <br />
+This repository is intended to contain the data presented in the work arXiv:2006.12513 with an additional tutorial to show how these data can be used. <br />
 The repository contains several folders and .tar:
 
 ## 1. The folder `data` 
@@ -11,7 +11,7 @@ contains the median, 68\% and 95\% uncertainties for:
 - Mass-ratio <img src="https://render.githubusercontent.com/render/math?math=\Delta{q/q}"> ('mass_ratio.txt')
 - S/N ('SNR.txt')
     
-assuming the standard LISA sensitivity curve, as described in Sec.II of (link to arxiv). Refer to the file with ' *_degraded.txt ' for the same quantites computed with the degraded LISA sensitivity. <br />
+assuming the standard LISA sensitivity curve, as described in Sec.II of arXiv:2006.12513. Refer to the file with ' *_degraded.txt ' for the same quantites computed with the degraded LISA sensitivity. <br />
 We report the values at 7 times from coalescence: 1 month, 1 week, 3 days, 1 day, 10 hours, 5 hours and 1 hour.
 For the <img src="https://render.githubusercontent.com/render/math?math=\Delta \Omega"> and <img src="https://render.githubusercontent.com/render/math?math=\Delta{d_L/d_L}" > uncertainties we report also the uncertainties at the merger obtained from eq. (12-13). We provide also the S/N for the full signal. <br />
 The files 'skyloc.txt', 'dl.txt', 'SNR.txt' are organized in 42 columns as follow: <br />
