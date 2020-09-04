@@ -19,6 +19,8 @@ log10(mtot/msun) - redshift - median (1 month) - median (1 week) -  ... median (
 
 The files 'mchirp.txt' and 'mass_ratio.txt' are organized in the same way withour the 'merger' columns, i.e. they have 37 columns
 
+Update: after the referee suggestion, we added the binary angular momentum accuracy <img src="https://render.githubusercontent.com/render/math?math=\Delta \Omega_L \, [deg^2]"> ('angular_momentum.txt' and 'angular_momentum_degraded.txt'). The files are organized in 37 columns with the same convention adopted for chirp mass and mass ratio.
+
 ## 2. The folder `fits`
 contains modules where we already implemented the fits. You can find an application of these formula in the notebook `Fits_tutorial.ipynb`. 
 We notice that `the area uncertainties provided by the corresponding formula are in steradians`.
